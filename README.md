@@ -1,1 +1,1 @@
-# -Smart-Space-Invaders-
+# Smart-Space-Invaders
