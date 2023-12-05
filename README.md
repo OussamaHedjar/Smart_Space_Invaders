@@ -25,10 +25,7 @@ The finite number of ships
 Starting with the first level, which has 4 ships, each leveling up will add 3 extra ships to the next level, this will lead to the player who’s playing the 10th  level (the last in the game) facing a total of 30 ships.
 Random positioning
 To keep the game fun and mysterious. We decided that the positions of the enemies should be anonymous at every level and every game to keep the challenge alive every time the player plays.
-We made every time level initialized with random coordinates for every ship, this did prove to be a challenge especially when it came to making sure that no two ships overlapped, for illustration we’ll use level 1 as an example while playing 4 different games: 
-<p align="center">
-  <img src="C:\Users\Dell\Pictures\spc1.jpg" width="350" title="hover text">
-</p>
+We made every time level initialized with random coordinates for every ship, this did prove to be a challenge especially when it came to making sure that no two ships overlapped.
 
 
 
@@ -39,9 +36,6 @@ In addition to the random positioning, we added another challenge to the player,
 With this mode, we decided to go with the classic split-screen local 1v1 (player vs player)  that you might see in the classic arcade centers or the ones you remember from your childhood, to create a competitive nostalgic atmosphere for the players as they try their hardest to defeat the opposing player next to them and claim victory.
 Each player has a spaceship that can move (up, down, left, right) and each player has a health counter that gets reduced by 1 each time the spaceship is hit by a bullet, so the health counter must be kept above 0 at all costs to avoid imminent destruction.
 The spaceship and health counter are located either on the left or right of the screen to each respective player, and of course, don’t forget that every spaceship has to come with a set of fully loaded guns! to strike down the other player and be.
-<p align="center">
-  <img src="C:\Users\Dell\Pictures\spc2.jpg" width="350" title="hover text">
-</p>
 
 
 # Infinite Mode
@@ -114,22 +108,6 @@ The same move is kept until the next prediction overwrites it.
 # Web service
 Our website is developed and designed using a popular framework called Django.
 Our website is hosted on the popular hosting service Heroku, which provided us with all the necessary tools for publishing the website and creating and managing the database.
-Here are some examples:
-
-<p align="center">
-  The home for downloading the game and showing players'  scores on a leaderboard.
-  <img src="C:\Users\Dell\Pictures\spc3.jpg" width="350" title="hover text">
-</p>
-
-<p align="center">
-  The registration page is where you can create an account, and also it sends email verification to verify the email. 
-  <img src="C:\Users\Dell\Pictures\spc4.jpg" width="350" title="hover text">
-</p>
-
-<p align="center">
-   User page to view user information.
-  <img src="C:\Users\Dell\Pictures\spc5.jpg" width="350" title="hover text">
-</p>
 
 
 # Future work
@@ -146,11 +124,11 @@ Web services
 - Add a feedback section so we can gather information on what to improve.
   
 This project was conducted at King Saud University, and it holds all copyrights for it.
-Developed by:
-Oussama Hedjar.
-Abdulaziz Alsharif.     
-Ammar Alamri.          
-Ibrahim Almuharib.   
-Supervised by:
-Prof.Khalil El Hindi
+## Developed by:
+### Oussama Hedjar.
+### Abdulaziz Alsharif.     
+### Ammar Alamri.          
+### Ibrahim Almuharib.   
+## Supervised by:
+### Prof.Khalil El Hindi
 
