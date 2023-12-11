@@ -1,15 +1,21 @@
 # Smart-Space-Invaders
 Smart Space Invaders is a retro game of one of the most successful arcade games in history, which is Space Invaders, in this change, we hope our intention of adding the element of machine learning to be widely stated.
 The goal of this project is to learn and apply the knowledge gained to add more features than the original game had, as the original was only played on an endless loop. However, the smart space invaders had implemented many more, the most important ones were:
+
+
 • Level Mode.
 • Multiplayer Mode.
 • A replica of the original’s Infinite Mode.
 • Web service.
 • Machine Learning.
+
+
 The game is built using Python as the programming language because we saw its flexibility and the broad online community behind it, and we focused on the use of three important libraries:
 ● Pygame.
 ● Django.
 ● Tensorflow.
+
+
 Pygame helped us in animation where it included computer graphics and sound
 libraries, and Django high-level Python web framework that enables rapid development
 of secure and maintainable websites specialized in back-end development, and
