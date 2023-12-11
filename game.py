@@ -53,11 +53,12 @@ IMAGES = {name: image.load(resource_path('images/' + '{}.png'.format(name))).con
 SOUND = 0.5
 LOGGED_IN = False
 USER = []
+# Filled with personal credantials for sql db.
 mydb = mysql.connector.connect(
-    host="q57yawiwmnaw13d2.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    user="wewxbxmpaji1y1pf",
-    password="m9zv48chodplt3ec",
-    database='vxwg6ka0rgw2unbl',
+    host="",
+    user="",
+    password="",
+    database="",
 )
 cur = mydb.cursor()
 
