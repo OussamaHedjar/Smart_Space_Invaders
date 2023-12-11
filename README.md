@@ -14,6 +14,7 @@ The goal of this project is to learn and apply the knowledge gained to add more 
 
 
 The game is built using Python as the programming language because we saw its flexibility and the broad online community behind it, and we focused on the use of three important libraries:
+
 ● Pygame.
 
 ● Django.
